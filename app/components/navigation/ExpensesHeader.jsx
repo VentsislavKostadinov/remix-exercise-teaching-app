@@ -26,5 +26,5 @@ function ExpensesHeader() {
     </header>
   );
 }
-
+console.log("test")
 export default ExpensesHeader;
