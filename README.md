@@ -51,3 +51,6 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+### Setup prisma
+`npx install --save-dev prisma`
+`npx prisma init --datasource-provider mongodb` - (this is create .env file with DATABASE_URL variable and prisma folder)
